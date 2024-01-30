@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(87, 87, 129);
+  border-top-right-radius: 300px;
+  border-bottom-left-radius: 300px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 20px 20px 10px black;
+}
+
+.stopwatch {
+  text-align: center;
+  background-color: white;
+  width: 25vw;
+  height: 25vh;
+  padding: 60px 0 0 0;
+  border-radius: 8px;
+  box-shadow: 5px 10px 10px black;
+  font-size: 1.5rem;
+}
+
+.stopwatch strong {
+  font-size: 1.5rem;
+  
+  
+}
+
+.stopwatch button{
+  margin: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #7eb0de;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: 5px 8px 10px lightslategray;
+
+}
+
+.stopwatch button:hover {
+  background-color: #0bf307;
+}
+
